@@ -1,6 +1,5 @@
 const methodNameGetSystemScreenBrightness = 'getSystemScreenBrightness';
 const methodNameSetSystemScreenBrightness = 'setSystemScreenBrightness';
-const methodNameCheckSystemCanWrite = 'checkSystemCanWrite';
 const methodNameGetApplicationScreenBrightness =
     'getApplicationScreenBrightness';
 const methodNameSetApplicationScreenBrightness =
