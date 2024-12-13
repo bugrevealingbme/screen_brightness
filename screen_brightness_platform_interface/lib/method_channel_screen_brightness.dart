@@ -76,15 +76,6 @@ class MethodChannelScreenBrightness extends ScreenBrightnessPlatform {
     await pluginMethodChannel.invokeMethod(
         methodNameSetSystemScreenBrightness, {"brightness": brightness});
   }
-
-  /// Check modify system settings
-  /// returns true or false
-  @override
-  Future<bool> checkSystemCanWrite() async {
-    await pluginMethodChannel.invokeMethod(
-        methodNameCheckSystemCanWrite);
-  }
-  
   
   /// Returns stream with system screen brightness changes including
   /// [ScreenBrightness.setSystemScreenBrightness], system control center or
